@@ -8,7 +8,9 @@ public class FindSmallestNumberAmongThreeArrays {
      * @param arr3 int[] array3 = {5, 6, 8, 11};
      * @return 6
      */
-    public int smallestCommon(int[] arr1, int[] arr2, int[] arr3) {
+    public int getSmallestCommon(int[] arr1, int[] arr2, int[] arr3) {
         return 6;
     }
+
+
 }

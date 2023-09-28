@@ -10,7 +10,7 @@ class FindSmallestNumberAmongThreeArraysTest {
         int[] array2 = {1, 2, 4, 6, 11};
         int[] array3 = {5, 6, 8, 11};
         FindSmallestNumberAmongThreeArrays findSmallestNumberAmongThreeArrays = new FindSmallestNumberAmongThreeArrays();
-        assertEquals(6,findSmallestNumberAmongThreeArrays.smallestCommon(array1, array2, array3));
+        assertEquals(6,findSmallestNumberAmongThreeArrays.getSmallestCommon(array1, array2, array3));
     }
 
     @Test
@@ -19,6 +19,6 @@ class FindSmallestNumberAmongThreeArraysTest {
         int[] array2 = {1, 2, 4, 6, 11};
         int[] array3 = {5, 6, 8, 11};
         FindSmallestNumberAmongThreeArrays findSmallestNumberAmongThreeArrays = new FindSmallestNumberAmongThreeArrays();
-        assertEquals(6,findSmallestNumberAmongThreeArrays.smallestCommon(array1, array2, array3));
+        assertEquals(6,findSmallestNumberAmongThreeArrays.getSmallestCommon(array1, array2, array3));
     }
 }
